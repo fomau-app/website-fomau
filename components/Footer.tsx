@@ -1,7 +1,9 @@
 "use client";
 import FomauLogo from "./FomauLogo";
 
-const links = {
+type LinkItem = { label: string; href: string; external?: boolean };
+
+const links: Record<string, LinkItem[]> = {
   Produit: [
     { label: "Le projet", href: "#projet" },
     { label: "L'application", href: "#" },
