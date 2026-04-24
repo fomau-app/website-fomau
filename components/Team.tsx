@@ -68,7 +68,7 @@ export default function Team() {
               key={member.name}
               initial={{ opacity: 0, y: 40 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.7, delay: member.delay, ease: [0.25, 0.46, 0.45, 0.94] }}
+              transition={{ duration: 0.7, delay: member.delay, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
               className="glass-card rounded-3xl p-8 group hover:border-brand/30 transition-all duration-500 hover:scale-[1.03] relative overflow-hidden text-center"
             >
               <div className="absolute inset-0 bg-gradient-to-b from-brand/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />

@@ -99,7 +99,7 @@ export default function Features() {
               key={f.title}
               initial={{ opacity: 0, y: 40 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: f.delay, ease: [0.25, 0.46, 0.45, 0.94] }}
+              transition={{ duration: 0.6, delay: f.delay, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
               className="glass-card rounded-3xl p-6 group hover:border-brand/30 transition-all duration-500 hover:scale-[1.03] relative overflow-hidden cursor-default"
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${f.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl`} />
