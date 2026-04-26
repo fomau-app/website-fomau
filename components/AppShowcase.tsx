@@ -11,7 +11,7 @@ export default function AppShowcase() {
   const y = useTransform(scrollYProgress, [0, 1], [40, -40]);
 
   return (
-    <section ref={ref} className="py-32 px-6 relative overflow-hidden">
+    <section ref={ref} className="py-16 md:py-32 px-6 relative overflow-hidden">
       <div className="orb w-[500px] h-[500px] bg-brand/10 top-1/2 left-1/4 -translate-y-1/2" />
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">

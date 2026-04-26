@@ -42,7 +42,7 @@ export default function Team() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="equipe" ref={ref} className="py-32 px-6 relative">
+    <section id="equipe" ref={ref} className="py-16 md:py-32 px-6 relative">
       <div className="orb w-[400px] h-[400px] bg-brand/10 top-0 right-0" />
 
       <div className="max-w-5xl mx-auto">

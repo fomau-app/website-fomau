@@ -8,7 +8,7 @@ export default function EventShowcase() {
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
   return (
-    <section ref={ref} className="py-32 px-6 relative overflow-hidden">
+    <section ref={ref} className="py-16 md:py-32 px-6 relative overflow-hidden">
       <div className="orb w-[600px] h-[600px] bg-brand/15 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
 
       <div className="max-w-4xl mx-auto">

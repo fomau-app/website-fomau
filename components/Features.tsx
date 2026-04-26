@@ -75,7 +75,7 @@ export default function Features() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="projet" ref={ref} className="py-32 px-6 relative">
+    <section id="projet" ref={ref} className="py-16 md:py-32 px-6 relative">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
