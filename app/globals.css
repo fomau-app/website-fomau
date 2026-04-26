@@ -142,6 +142,13 @@ body {
   animation: shimmer 3s linear infinite;
 }
 
+.shimmer-btn-light {
+  background: linear-gradient(90deg, #f0eeff 0%, #ffffff 50%, #f0eeff 100%);
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+  color: #1a0a2e;
+}
+
 .orb {
   position: absolute;
   border-radius: 50%;

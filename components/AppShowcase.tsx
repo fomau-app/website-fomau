@@ -65,7 +65,7 @@ export default function AppShowcase() {
               href="https://play.google.com/store/apps/details?id=com.fomau"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-brand/20 border border-brand/40 text-white font-medium w-36 py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-brand/30 hover:scale-105 transition-all text-sm"
+              className="shimmer-btn-light font-semibold w-36 py-3 rounded-xl flex items-center justify-center gap-2 hover:scale-105 transition-transform text-sm"
             >
               <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3.18 23.76c.31.17.66.22 1.01.14l12.2-7.04-2.72-2.72-10.49 9.62zm-1.14-20.5C2.02 3.56 2 3.88 2 4.2v15.6c0 .32.02.64.04.94l10.12-10.12-10.12-10.36zM20.55 10.3l-2.68-1.55-3.1 3.1 3.1 3.1 2.72-1.57c.78-.45.78-1.63-.04-2.08zM4.19.1C3.84.02 3.49.07 3.18.24L13.7 10.76l2.72-2.72L4.19.1z"/></svg>
               Google Play
