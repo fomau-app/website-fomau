@@ -56,15 +56,17 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
-        className="flex items-center justify-center gap-2 glass-card px-4 py-2 rounded-full mb-8 text-xs text-white/70 mx-auto"
+        className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 glass-card px-5 py-2.5 rounded-full mb-8 text-xs text-white/70 mx-auto text-center"
       >
         <span className="flex items-center gap-1 text-emerald-400">
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
           Disponible maintenant
         </span>
-        <span className="w-px h-3 bg-white/20" />
-        Télécharge l&apos;app gratuitement
-        <ArrowRight size={12} className="text-brand-lighter" />
+        <span className="hidden sm:block w-px h-3 bg-white/20" />
+        <span className="flex items-center gap-1">
+          Télécharge l&apos;app gratuitement
+          <ArrowRight size={12} className="text-brand-lighter" />
+        </span>
       </motion.div>
 
       {/* Main headline */}
