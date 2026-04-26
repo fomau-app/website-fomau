@@ -38,7 +38,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-6 pt-24">
       {/* Background orbs */}
-      <div ref={orb1} className="orb w-[600px] h-[600px] bg-brand/20 top-[-100px] right-[-150px]" />
+      <div ref={orb1} className="orb w-[900px] h-[900px] bg-brand/10 top-[-300px] right-[-400px]" />
       <div className="orb w-[300px] h-[300px] bg-brand/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
 
       {/* Grid pattern */}
