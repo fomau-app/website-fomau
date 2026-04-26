@@ -100,7 +100,7 @@ export default function Hero() {
             className="text-[clamp(1rem,2.5vw,1.35rem)] text-white/50 max-w-2xl mx-auto leading-relaxed font-light"
           >
             Organise et participe aux évènements qui{" "}
-            <span className="text-white/80">te ressemblent</span>. Des soirées entre amis aux grand rassemblements — tout en un.
+            <span className="text-white/80">te ressemblent</span>. Des soirées entre amis aux grand rassemblements : tout en un.
           </motion.p>
         </div>
 
