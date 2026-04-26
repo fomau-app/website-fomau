@@ -85,8 +85,8 @@ export default function Features() {
         >
           <p className="text-sm font-medium tracking-[0.3em] text-brand-lighter uppercase mb-4">Fonctionnalités</p>
           <h2 className="text-[clamp(2rem,5vw,4rem)] font-bold leading-tight">
-            Tout pour tes{" "}
-            <span className="gradient-text">événements</span>
+            Un outil pour{" "}
+            <span className="gradient-text">chaque besoin</span>
           </h2>
           <p className="text-white/50 text-lg mt-5 max-w-xl mx-auto font-light">
             Une seule app pour organiser, découvrir et vivre des moments exceptionnels.

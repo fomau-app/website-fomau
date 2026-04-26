@@ -20,8 +20,8 @@ export default function EventShowcase() {
         >
           <p className="text-sm font-medium tracking-[0.3em] text-brand-lighter uppercase mb-4">Dans l&apos;app</p>
           <h2 className="text-[clamp(2rem,5vw,4rem)] font-bold leading-tight">
-            Gère-le comme{" "}
-            <span className="gradient-text">tu le souhaites</span>
+            Ton évent,{" "}
+            <span className="gradient-text">ton orga</span>
           </h2>
           <p className="text-white/50 text-lg mt-5 max-w-xl mx-auto font-light">
             Chaque événement devient un espace complet avec tous les outils dont ton groupe a besoin.
