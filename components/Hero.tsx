@@ -86,13 +86,17 @@ export default function Hero() {
           <motion.h1
             variants={item}
             className="text-[clamp(3rem,9vw,8rem)] font-bold leading-[1.05] tracking-tight"
+            style={{
+              background: "linear-gradient(90deg, #ffffff 0%, #C084FC 50%, #8B35F1 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}
           >
-            {words.map((w, i) => (
-              <span key={w} className={i === 0 ? "text-white" : i === 1 ? "gradient-text" : "text-brand-lighter"}>
-                {w}{" "}
-              </span>
+            {words.map((w) => (
+              <span key={w}>{w}{" "}</span>
             ))}
-            <span ref={cursorRef} className="text-brand">|</span>
+            <span ref={cursorRef} style={{ WebkitTextFillColor: "#8B35F1" }}>|</span>
           </motion.h1>
         </div>
 
