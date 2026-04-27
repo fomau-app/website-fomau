@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import Image from "next/image";
 
 const links = [
   { label: "Le projet", href: "#projet" },
@@ -32,7 +31,7 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2 group">
-            <Image src="/logo-fomau.png" alt="fomau" width={120} height={36} className="h-9 w-auto" style={{ mixBlendMode: "screen" }} />
+            <img src="/logo-fomau.png" alt="fomau" className="h-9 w-auto" style={{ mixBlendMode: "screen" }} />
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
