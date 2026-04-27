@@ -88,12 +88,13 @@ export default function Hero() {
             className="text-[clamp(3rem,9vw,8rem)] font-bold leading-[1.05] tracking-tight"
           >
             {[
-              { word: "Crée.", from: "#ffffff", to: "#E9D5FF" },
+              { word: "Crée.", from: "#ffffff", to: "#E9D5FF", extra: "mr-6" },
               { word: "Planifie.", from: "#E9D5FF", to: "#C084FC" },
               { word: "Profite.", from: "#C084FC", to: "#8B35F1" },
-            ].map(({ word, from, to }) => (
+            ].map(({ word, from, to, extra = "" }) => (
               <span
                 key={word}
+                className={extra}
                 style={{
                   background: `linear-gradient(90deg, ${from} 0%, ${to} 100%)`,
                   WebkitBackgroundClip: "text",
