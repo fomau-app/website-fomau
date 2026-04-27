@@ -87,12 +87,22 @@ export default function Hero() {
             variants={item}
             className="text-[clamp(3rem,9vw,8rem)] font-bold leading-[1.05] tracking-tight"
           >
-            {words.map((w, i) => (
+            {[
+              { word: "Crée.", from: "#ffffff", to: "#E9D5FF" },
+              { word: "Planifie.", from: "#E9D5FF", to: "#C084FC" },
+              { word: "Profite.", from: "#C084FC", to: "#8B35F1" },
+            ].map(({ word, from, to }) => (
               <span
-                key={w}
-                style={{ color: i === 0 ? "#ffffff" : i === 1 ? "#C084FC" : "#8B35F1" }}
+                key={word}
+                style={{
+                  background: `linear-gradient(90deg, ${from} 0%, ${to} 100%)`,
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text",
+                  display: "inline-block",
+                }}
               >
-                {w}{" "}
+                {word}{" "}
               </span>
             ))}
             <span ref={cursorRef} className="text-brand">|</span>
