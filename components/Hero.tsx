@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { gsap } from "gsap";
-import { ArrowRight, Star } from "lucide-react";
+import { Star } from "lucide-react";
 
 const words = ["Crée.", "Planifie.", "Profite."];
 
@@ -63,10 +63,7 @@ export default function Hero() {
           Disponible maintenant
         </span>
         <span className="hidden sm:block w-px h-3 bg-white/20" />
-        <span className="flex items-center gap-1">
-          Télécharge l&apos;app gratuitement
-          <ArrowRight size={12} className="text-brand-lighter" />
-        </span>
+        <span>Télécharge l&apos;app gratuitement</span>
       </motion.div>
 
       {/* Main headline */}
