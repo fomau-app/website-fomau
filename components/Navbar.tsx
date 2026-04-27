@@ -31,7 +31,7 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2 group">
-            <img src="/logo-fomau.png" alt="fomau" className="h-9 w-auto" style={{ mixBlendMode: "screen" }} />
+            <img src="/logo-fomau.png" alt="fomau" className="h-18 w-auto" style={{ mixBlendMode: "screen" }} />
           </a>
 
           <nav className="hidden md:flex items-center gap-8">

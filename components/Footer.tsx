@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-2 md:col-span-1">
-            <img src="/logo-fomau.png" alt="fomau" className="h-9 w-auto mb-4" style={{ mixBlendMode: "screen" }} />
+            <img src="/logo-fomau.png" alt="fomau" className="h-18 w-auto mb-4" style={{ mixBlendMode: "screen" }} />
             <p className="text-white/40 text-sm font-light leading-relaxed max-w-[200px]">
               Organise et participe aux évènements qui te ressemblent.
             </p>
