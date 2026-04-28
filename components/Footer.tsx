@@ -6,6 +6,7 @@ const links: Record<string, LinkItem[]> = {
   Produit: [
     { label: "Le projet", href: "#projet" },
     { label: "L'application", href: "#" },
+    { label: "Supprimer mon compte", href: "/deleteaccount" },
   ],
   Contact: [
     { label: "contact@fomau.com", href: "mailto:contact@fomau.com" },
