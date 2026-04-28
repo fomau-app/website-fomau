@@ -13,6 +13,11 @@ const links: Record<string, LinkItem[]> = {
     { label: "Instagram", href: "https://www.instagram.com/fomau.app/", external: true },
     { label: "TikTok", href: "https://www.tiktok.com/@fomau.app", external: true },
   ],
+  Légal: [
+    { label: "Mentions légales", href: "/mentions-legales" },
+    { label: "Politique de confidentialité", href: "/politique-de-confidentialite" },
+    { label: "CGU", href: "/cgu" },
+  ],
 };
 
 export default function Footer() {
