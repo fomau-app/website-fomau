@@ -29,7 +29,7 @@ export default function CguPage() {
           <section>
             <h2 className="text-white font-semibold text-base mb-3">1. Objet</h2>
             <p>
-              Les présentes Conditions Générales d&apos;Utilisation (CGU) régissent l&apos;accès et l&apos;utilisation de l&apos;application mobile et du site internet <strong className="text-white/80">fomau</strong>, édités par The Aha Company. En utilisant fomau, vous acceptez ces CGU sans réserve.
+              Les présentes Conditions Générales d&apos;Utilisation (CGU) régissent l&apos;accès et l&apos;utilisation de l&apos;application mobile et du site internet <strong className="text-white/80">fomau</strong>, édités par FOMAU. En utilisant fomau, vous acceptez ces CGU sans réserve.
             </p>
           </section>
 
@@ -91,7 +91,7 @@ export default function CguPage() {
           <section>
             <h2 className="text-white font-semibold text-base mb-3">6. Propriété intellectuelle</h2>
             <p>
-              L&apos;ensemble des éléments de l&apos;application (design, logo, code, textes) est la propriété exclusive de fomau / The Aha Company et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction non autorisée est interdite.
+              L&apos;ensemble des éléments de l&apos;application (design, logo, code, textes) est la propriété exclusive de fomau / FOMAU et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction non autorisée est interdite.
             </p>
           </section>
 

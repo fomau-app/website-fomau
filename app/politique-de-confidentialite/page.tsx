@@ -29,7 +29,7 @@ export default function PolitiqueConfidentialitePage() {
           <section>
             <h2 className="text-white font-semibold text-base mb-3">1. Responsable du traitement</h2>
             <p>
-              Le responsable du traitement de vos données est <strong className="text-white/80">The Aha Company</strong>, éditeur de l&apos;application fomau, joignable à <a href="mailto:contact@fomau.com" className="text-brand-lighter hover:text-white transition-colors">contact@fomau.com</a>.
+              Le responsable du traitement de vos données est <strong className="text-white/80">FOMAU</strong>, éditeur de l&apos;application fomau, joignable à <a href="mailto:contact@fomau.com" className="text-brand-lighter hover:text-white transition-colors">contact@fomau.com</a>.
             </p>
           </section>
 

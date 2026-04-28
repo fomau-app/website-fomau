@@ -30,25 +30,15 @@ export default function MentionsLegalesPage() {
             <h2 className="text-white font-semibold text-base mb-3">1. Éditeur du site</h2>
             <p>Le site <strong className="text-white/80">fomau.com</strong> et l&apos;application <strong className="text-white/80">fomau</strong> sont édités par :</p>
             <div className="mt-3 glass-card rounded-xl p-5 space-y-1">
-              <p><span className="text-white/40">Entité :</span> <span className="text-white/80">The Aha Company</span></p>
-              <p><span className="text-white/40">Responsable de publication :</span> <span className="text-white/80">Nicolas Bonnet</span></p>
+              <p><span className="text-white/40">Entité :</span> <span className="text-white/80">FOMAU</span></p>
               <p><span className="text-white/40">Email :</span> <a href="mailto:contact@fomau.com" className="text-brand-lighter hover:text-white transition-colors">contact@fomau.com</a></p>
-            </div>
-          </section>
-
-          <section>
-            <h2 className="text-white font-semibold text-base mb-3">2. Hébergement</h2>
-            <div className="glass-card rounded-xl p-5 space-y-1">
-              <p><span className="text-white/40">Hébergeur :</span> <span className="text-white/80">Vercel Inc.</span></p>
-              <p><span className="text-white/40">Adresse :</span> <span className="text-white/80">340 Pine Street, Suite 701, San Francisco, CA 94104, États-Unis</span></p>
-              <p><span className="text-white/40">Site :</span> <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="text-brand-lighter hover:text-white transition-colors">vercel.com</a></p>
             </div>
           </section>
 
           <section>
             <h2 className="text-white font-semibold text-base mb-3">3. Propriété intellectuelle</h2>
             <p>
-              L&apos;ensemble du contenu de ce site et de l&apos;application (textes, images, logos, icônes, interface) est protégé par le droit d&apos;auteur et appartient à fomau / The Aha Company, sauf mentions contraires. Toute reproduction ou diffusion non autorisée est interdite.
+              L&apos;ensemble du contenu de ce site et de l&apos;application (textes, images, logos, icônes, interface) est protégé par le droit d&apos;auteur et appartient à FOMAU, sauf mentions contraires. Toute reproduction ou diffusion non autorisée est interdite.
             </p>
           </section>
 
