@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-white/5">
           <p className="text-xs text-white/20">© 2025 fomau. Tous droits réservés.</p>
-          <p className="text-xs text-white/20">Fait avec ❤️ en France</p>
+          <p className="text-xs text-white/20">Construit sans S</p>
         </div>
       </div>
     </footer>
