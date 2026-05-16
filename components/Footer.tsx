@@ -4,10 +4,10 @@ type LinkItem = { label: string; href: string; external?: boolean };
 
 const links: Record<string, LinkItem[]> = {
   Produit: [
-    { label: "Le Projet", href: "#" },
-    { label: "L'application", href: "#" },
-    { label: "Dans l'app", href: "#" },
-    { label: "Fonctionnalités", href: "#" },
+    { label: "Le Projet", href: "#projet" },
+    { label: "L'application", href: "#application" },
+    { label: "Dans l'app", href: "#dans-lapp" },
+    { label: "Fonctionnalités", href: "#fonctionnalites" },
   ],
   Contact: [
     { label: "contact@fomau.com", href: "mailto:contact@fomau.com" },
