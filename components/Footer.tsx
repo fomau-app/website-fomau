@@ -4,7 +4,7 @@ type LinkItem = { label: string; href: string; external?: boolean };
 
 const links: Record<string, LinkItem[]> = {
   Produit: [
-    { label: "Le Projet", href: "#projet" },
+    { label: "Le Projet", href: "#" },
     { label: "L'application", href: "#application" },
     { label: "Dans l'app", href: "#dans-lapp" },
     { label: "Fonctionnalités", href: "#fonctionnalites" },

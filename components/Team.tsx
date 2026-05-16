@@ -54,7 +54,7 @@ export default function Team() {
         >
           <p className="text-sm font-medium tracking-[0.3em] text-brand-lighter uppercase mb-4">L&apos;équipe</p>
           <h2 className="text-[clamp(2rem,5vw,4rem)] font-bold leading-tight">
-            Construits par des{" "}
+            Construit par des{" "}
             <span className="gradient-text">passionnés</span>
           </h2>
           <p className="text-white/50 text-lg mt-5 max-w-xl mx-auto font-light">

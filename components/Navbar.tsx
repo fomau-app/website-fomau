@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { label: "Le projet", href: "#projet" },
+  { label: "Le projet", href: "#fonctionnalites" },
   { label: "L'équipe", href: "#equipe" },
   { label: "Contact", href: "#contact" },
 ];
