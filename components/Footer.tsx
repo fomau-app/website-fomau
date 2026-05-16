@@ -4,13 +4,16 @@ type LinkItem = { label: string; href: string; external?: boolean };
 
 const links: Record<string, LinkItem[]> = {
   Produit: [
-    { label: "Le projet", href: "#projet" },
+    { label: "Le Projet", href: "#" },
     { label: "L'application", href: "#" },
+    { label: "Dans l'app", href: "#" },
+    { label: "Fonctionnalités", href: "#" },
   ],
   Contact: [
     { label: "contact@fomau.com", href: "mailto:contact@fomau.com" },
     { label: "Instagram", href: "https://www.instagram.com/fomau.app/", external: true },
     { label: "TikTok", href: "https://www.tiktok.com/@fomau.app", external: true },
+    { label: "YouTube", href: "https://www.youtube.com/@fomau_app", external: true },
   ],
   Légal: [
     { label: "Mentions légales", href: "/mentions-legales" },
