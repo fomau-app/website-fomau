@@ -123,7 +123,7 @@ export default function CguPage() {
             <h2 className="text-white font-semibold text-base mb-3">10. Données personnelles</h2>
             <p>
               Le traitement de vos données personnelles est régi par notre{" "}
-              <Link href="/politique-de-confidentialite" className="text-brand-lighter hover:text-white transition-colors">
+              <Link href="/politique-de-confidentialite-de-fomau" className="text-brand-lighter hover:text-white transition-colors">
                 Politique de confidentialité
               </Link>, conforme au RGPD.
             </p>

@@ -15,7 +15,7 @@ const links: Record<string, LinkItem[]> = {
   ],
   Légal: [
     { label: "Mentions légales", href: "/mentions-legales" },
-    { label: "Politique de confidentialité", href: "/politique-de-confidentialite" },
+    { label: "Politique de confidentialité", href: "/politique-de-confidentialite-de-fomau" },
     { label: "CGU", href: "/cgu" },
   ],
 };

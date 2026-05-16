@@ -46,7 +46,7 @@ export default function MentionsLegalesPage() {
             <h2 className="text-white font-semibold text-base mb-3">4. Données personnelles</h2>
             <p>
               La collecte et le traitement des données personnelles sont décrits dans notre{" "}
-              <Link href="/politique-de-confidentialite" className="text-brand-lighter hover:text-white transition-colors">
+              <Link href="/politique-de-confidentialite-de-fomau" className="text-brand-lighter hover:text-white transition-colors">
                 Politique de confidentialité
               </Link>.
             </p>
