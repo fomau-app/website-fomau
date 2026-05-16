@@ -6,7 +6,6 @@ const links: Record<string, LinkItem[]> = {
   Produit: [
     { label: "Le projet", href: "#projet" },
     { label: "L'application", href: "#" },
-    { label: "Supprimer mon compte", href: "/deleteaccount" },
   ],
   Contact: [
     { label: "contact@fomau.com", href: "mailto:contact@fomau.com" },
@@ -17,6 +16,7 @@ const links: Record<string, LinkItem[]> = {
     { label: "Mentions légales", href: "/mentions-legales" },
     { label: "Politique de confidentialité", href: "/politique-de-confidentialite-de-fomau" },
     { label: "CGU", href: "/cgu" },
+    { label: "Supprimer mon compte", href: "/deleteaccount" },
   ],
 };
 
